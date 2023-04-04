@@ -1,0 +1,192 @@
+.mcskyblue {
+  background-color: skyblue;
+  color: black;
+}
+
+.mcdeepskyblue {
+  background-color: deepskyblue;
+  color: black;
+}
+
+.mclightskyblue {
+  background-color: lightskyblue;
+  color: black;
+}
+
+.mcdodgerblue {
+  background-color: dodgerblue;
+  color: black;
+}
+
+.mccornflowerblue {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.mclightsteelblue {
+    background-color: #b0c4de;
+    color: white;
+}
+
+.mccustomblue1 {
+    background-color: rgba(210, 238, 255, 0.884);
+    color: black;
+}
+  
+.mcburlywood {
+  background-color: burlywood;
+  color: blue;
+}
+
+.mcthistle {
+  background-color: thistle;
+  color: blue;
+}
+
+.mcaliceblue {
+  background-color: aliceblue;
+  color: black;
+}
+
+.mcazure {
+  background-color: azure;
+  color: black;
+}
+
+.mcmintcream {
+  background-color: mintcream;
+  color: black;
+}
+
+.mclavender {
+  background-color: lavender;
+  color: black;
+}
+
+.mclavenderblush {
+  background-color: lavenderblush;
+  color: black;
+}
+
+.mclightcyan {
+  background-color: lightcyan;
+  color: black;
+}
+
+.mcgainsboro {
+  background-color: gainsboro;
+  color: black;
+}
+
+.mchoneydew {
+  background-color: honeydew;
+  color: black;
+}
+
+.mclightsalmon {
+  background-color: lightsalmon;
+  color: black;
+}
+
+.mclightsalmoncustom {
+    background-color: rgba(240, 188, 168, 0.747);
+    color: black;
+}
+  
+.mycustomchart div {
+  font: 10px sans-serif;
+  background-color: thistle;
+  text-align: right;
+  padding: 12px;
+  margin: 6px;
+  color: white;
+}
+
+/*additional for gauge */
+.label{
+	font-size:22.5px;
+	fill:#ffffff;
+	text-anchor:middle;
+	/*alignment-baseline:middle;*/
+}
+.face{
+	stroke:#c8c8c8;
+	stroke-width:2;
+}
+.minorTicks{
+	stroke-width:2;
+	stroke:white;
+}
+.majorTicks{
+	stroke:white;
+	stroke-width:3;
+}
+
+/* Sub Menu for Bootstrap 4*/
+.dropdown-submenu {
+  position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top:0;
+  left:-10rem; /* 10rem is the min-width of dropdown-menu */
+  margin-top:-6px;
+}
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+  text-decoration: underline;
+  transform: rotate(-90deg);
+} 
+
+
+/* from other source */
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 6px;
+  top: .8em;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: .1rem;
+  margin-right: .1rem;
+}
+
+.orgchart .top-level .title {
+  background-color: #006699;
+}
+.orgchart .top-level .content {
+  border-color: #006699;
+}
+.orgchart .level1 .title {
+  background-color: dodgerblue;
+}
+.orgchart .level1 .content {
+  border-color: dodgerblue;
+}
+.orgchart .level2 .title {
+  background-color: #993366;
+}
+.orgchart .level2 .content {
+  border-color: #993366;
+}
+
+.calculatorcontainer {
+  border-spacing: 0.1em 0.1em;
+  border: 1px solid orange;
+  box-shadow: 0.5em 0.5em rgba(0, 0, 0, 0.6);
+}
+
+.compcalculator {
+  width: 4em;
+  height: 4em;
+  background: lightskyblue;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.collection-create-form_last-form-item {
+    margin-bottom: 0;
+}
